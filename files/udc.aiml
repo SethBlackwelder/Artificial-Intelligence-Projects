@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  
+
+
+
+
+
+
+
+
+<category>
+    <pattern>Hi</pattern>
+    <template>Hello, I am here to help you decide on a computer science job. I will ask a series of questions and you will respond with the number corelating to your response. Enter 1 to continue. Enter 2 at any time to quit.</template>
+</category>
+<category>
+    <pattern>1</pattern>
+    <template>Are you interested in the protection of business data and unauthorized use of computer systems? Enter 3 for yes. Enter 4 for no.</template>
+</category>
+<category>
+    <pattern>2</pattern>
+    <template>I am sorry we could not help you today. If you change your mind you may press the 1 key.</template>
+</category>
+<category>
+    <pattern>3</pattern>
+    <template>It sounds like you would be perfect for Cyber security.</template>
+</category>
+<category>
+    <pattern>4</pattern>
+    <template>Alright not that one. Are you interested in using your code to evaluate data and use statistical analysis to extrapolate knowledge for a business? Enter 5 for yes. Enter 6 for no.</template>
+</category>
+<category>
+    <pattern>5</pattern>
+    <template>It sounds like you would be perfect for Data Science.</template>
+</category>
+<category>
+    <pattern>6</pattern>
+    <template>Okay how about this one. Are you interested in repairing the hardware that computer systems use or in helping others fix technical issues with their software? Enter 7 for yes. Enter 8 for no.</template>
+</category>
+<category>
+    <pattern>7</pattern>
+    <template>It sounds like you would be a great IT professional.</template>
+</category>
+<category>
+    <pattern>8</pattern>
+    <template>We have other options still. Are you more interested in the theoretical side of computing? Would you want to develop theories and models relating to the field? Enter 9 for yes. Enter 10 for no.</template>
+</category>
+<category>
+    <pattern>9</pattern>
+    <template>It sounds like you would be a great Computer research scientist.</template>
+</category>
+<category>
+    <pattern>10</pattern>
+    <template>The last option is the most popular. If you are interested In solving problems with code and like puzzles you would be a great Software developer. Enter 1 to look back over your options. Enter 2 to quit.</template>
+</category>
+<category>
+    <pattern>*</pattern>
+    <template>Hello! Try saying "hi" to get started!</template>
+</category>
+</aiml>
